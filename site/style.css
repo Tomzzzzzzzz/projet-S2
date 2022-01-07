@@ -1,0 +1,20 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+}
+
+#prez
+{
+    color: blueviolet;
+}
+
+#repart
+{
+    color: rgb(255,0,0);
+}
+
+#beurk
+{
+    color: rgb(170, 84, 9);
+}
