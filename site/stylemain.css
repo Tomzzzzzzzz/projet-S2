@@ -1,21 +1,79 @@
+html
+{
+}
+
+@font-face {
+    font-family: 'Beaufort for LOL';
+    src: url('Beaufort for LOL Bold.ttf') format('truetype');
+}
+
 body
 {
-    background-image: url("waiwaiwai.jpg");
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.6em;
+    background-color: rgb(90, 163, 7);
+    font-size: 1.5em;
+
+
+}
+a, a:visited, a:hover, a:active {
+    text-decoration:none;
+}
+a:hover
+{
+    background-color: rgba(255, 255, 253, 0.3);
+    padding: 3px;
+    text-decoration: none;
+
+}
+a:visited
+{
+    color: aliceblue;
+}
+header
+{
+    position: fixed;
+    background-color: rgb(50,50,50);
+    height: 45px;
+    width: 100%;
+    top:0;
+    left: 0;
+    font-size: 1.3em;
+
+}
+nav
+{
+    color: aliceblue;
+    position: fixed;
+    right: 10px;
 }
 
-#prez
+#menu
 {
-    color: violet;
+    position: fixed;
+    left: 10px;
+
 }
 
-#repart
+h1
 {
-    color: rgb(255,0,0);
+    font-size: 3em;
 }
 
-#beurk
+h3
 {
-    color: rgb(170, 84, 9);
+    font-size: 2em;
+}
+#presentation
+{
+    top: 150px;
+    color: rgba(247, 199, 86, 0.986);
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: "Beaufort for Lol";
+
+}
+#droitauteur
+{
+    font-size: 10px;
+    color: aliceblue;
 }
