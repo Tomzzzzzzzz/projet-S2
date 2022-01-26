@@ -2,3 +2,42 @@ html
 {
     background-color: orange;
 }
+
+a, a:visited, a:hover, a:active {
+    color: aliceblue;
+    text-decoration:none;
+}
+a:hover
+{
+    background-color: rgba(255, 255, 253, 0.3);
+    padding: 3px;
+    text-decoration: none;
+
+}
+
+header
+{
+    position: fixed;
+    color: aliceblue;
+    background-color: rgb(50,50,50);
+    height: 45px;
+    width: 100%;
+    top:0;
+    left: 0;
+    font-size: 1.3em;
+
+}
+nav
+{
+    color: aliceblue;
+    position: fixed;
+    right: 10px;
+    font-size: 1.3em;
+}
+
+#menu
+{
+    position: fixed;
+    left: 10px;
+
+}
