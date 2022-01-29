@@ -68,6 +68,16 @@ h3
     font-size: 1.3em;
 
 }
+
+footer
+{
+    position:absolute;
+    width: 99%;
+    bottom: 0%;
+    background-color: rgb(50,50,50);
+    height: 100px;
+}
+
 #droitauteur
 {
     font-size: 10px;

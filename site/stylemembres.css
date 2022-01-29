@@ -1,6 +1,7 @@
 html
 {
-    background-color: aqua;
+    background-color: rgb(90, 163, 7);
+    color: rgba(247, 199, 86, 0.986);
 }
 
 a, a:visited, a:hover, a:active {
@@ -17,6 +18,7 @@ a:hover
 
 header
 {
+    z-index: 1;
     position: fixed;
     color: aliceblue;
     background-color: rgb(50,50,50);
@@ -40,4 +42,61 @@ nav
     position: fixed;
     left: 10px;
 
+}
+
+body
+{
+    z-index: 2;
+}
+
+#espace
+{
+    margin: 10px;
+}
+
+#membres
+{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    color:rgb(90, 163, 7);
+    background-color: rgba(247, 199, 86, 0.986) ;
+    display: block;
+    text-align: center;
+}
+#tom , #hugo
+{
+    margin-top: 150px;
+    height: 200px;
+    width: 35%;
+    position: relative;
+    padding: 50px;
+    border: 1.5px groove rgb(90, 163, 7);
+    right: 30%;
+    left: 15%;
+    
+}
+
+
+
+#eliott, #nico
+{
+    margin-top: 150px;
+    width: 35%;
+    height: 200px;
+    position: relative;
+    padding: 50px;
+    border: 1.5px groove rgb(90, 163, 7);
+    left:45%;
+    right: 10%;
+}
+
+#tom 
+{
+    top:10px
+}
+
+#nico
+{
+    bottom: 10px;
 }
