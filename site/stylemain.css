@@ -11,6 +11,7 @@ html
 
 body
 {
+    z-index: 2;
     position: relative;
     font-family: "Beaufort for Lol";
     padding:0;margin:0;
@@ -38,6 +39,7 @@ header
     top:0;
     left: 0;
     font-size: 1.3em;
+    z-index: 1;
 
 }
 nav
@@ -77,7 +79,41 @@ h3
 
 #ressources
 {
-    
+    position: relative;
+}
+
+#logos1
+{
+    position: relative;
+    float:right;
+    margin-left: 40px;
+}
+
+#logos2
+{
+    position: relative;
+    float:left;
+    margin-right: 40px;
+}
+
+#description1
+{
+    position: relative;
+    left: 260px;
+    float: left;
+    border: 1.5px groove red;
+    padding: 25px;
+    width: 31%;
+}
+
+#description2
+{
+    position: relative;
+    right: 230px;
+    float: right;
+    border: 1.5px groove red;
+    padding: 25px;
+    width: 31%;
 }
 
 
