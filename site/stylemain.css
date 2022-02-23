@@ -3,12 +3,20 @@
     src: url('Beaufort for LOL Bold.ttf') format('truetype');
 }
 
-body
+html
 {
     background-color: rgb(90, 163, 7);
 
-
 }
+
+body
+{
+    z-index: 2;
+    position: relative;
+    font-family: "Beaufort for Lol";
+    padding:0;margin:0;
+}
+
 a, a:visited, a:hover, a:active {
     color: aliceblue;
     text-decoration:none;
@@ -31,6 +39,7 @@ header
     top:0;
     left: 0;
     font-size: 1.3em;
+    z-index: 1;
 
 }
 nav
@@ -59,20 +68,61 @@ h3
 }
 #presentation
 {
-    top: 150px;
+    position: relative;
     color: rgba(247, 199, 86, 0.986);
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
-    font-family: "Beaufort for Lol";
     font-size: 1.3em;
-
+    height: 670px;
 }
+
+#ressources
+{
+    position: relative;
+}
+
+#logos1
+{
+    position: relative;
+    float:right;
+    margin-left: 40px;
+}
+
+#logos2
+{
+    position: relative;
+    float:left;
+    margin-right: 40px;
+}
+
+#description1
+{
+    position: relative;
+    left: 260px;
+    float: left;
+    border: 1.5px groove red;
+    padding: 25px;
+    width: 31%;
+}
+
+#description2
+{
+    position: relative;
+    right: 230px;
+    float: right;
+    border: 1.5px groove red;
+    padding: 25px;
+    width: 31%;
+}
+
 
 footer
 {
-    position:absolute;
-    width: 99%;
+    position:relative;
+    z-index: 1;
+    bottom: 0; left: 0;
+    width: 100%;
     bottom: 0%;
     background-color: rgb(50,50,50);
     height: 100px;
