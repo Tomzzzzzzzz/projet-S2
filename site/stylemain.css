@@ -6,6 +6,7 @@
 html
 {
     background-color: rgb(90, 163, 7);
+    color: rgba(247, 199, 86, 0.986);
 
 }
 
@@ -15,6 +16,7 @@ body
     position: relative;
     font-family: "Beaufort for Lol";
     padding:0;margin:0;
+    height: 1000px;
 }
 
 a, a:visited, a:hover, a:active {
@@ -74,62 +76,65 @@ h3
     margin-left: 15%;
     margin-right: 15%;
     font-size: 1.3em;
-    height: 670px;
+    height: 770px;
 }
 
 #ressources
-{
+{   
     position: relative;
+    height: 750px;
 }
 
 #logos1
 {
+    text-align: center;
     position: relative;
-    float:right;
-    margin-left: 40px;
+    float:left;
+    left: 175px;
+    border: 1.5px groove red;
+    padding: 25px;
+    width: 32%;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 2.7em;
+    margin-bottom:70px;
+}
+
+#logos1:hover , #logos2:hover
+{
+    position: relative;
+    background-color: red!important;    
 }
 
 #logos2
 {
+    text-align: center;
     position: relative;
-    float:left;
-    margin-right: 40px;
-}
-
-#description1
-{
-    position: relative;
-    left: 260px;
-    float: left;
+    display: block;
+    float:right;
+    right: 175px;
     border: 1.5px groove red;
     padding: 25px;
-    width: 31%;
+    width: 32%;
 }
 
-#description2
+#ligne2
 {
     position: relative;
-    right: 230px;
-    float: right;
-    border: 1.5px groove red;
-    padding: 25px;
-    width: 31%;
+    top: 100px;
 }
 
 
 footer
 {
-    position:relative;
+    position: relative;
     z-index: 1;
-    bottom: 0; left: 0;
+    left: 0;
     width: 100%;
-    bottom: 0%;
     background-color: rgb(50,50,50);
     height: 100px;
 }
 
-#droitauteur
-{
-    font-size: 10px;
-    color: aliceblue;
-}
