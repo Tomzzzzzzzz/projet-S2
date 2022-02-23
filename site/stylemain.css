@@ -5,8 +5,8 @@
 
 html
 {
-    background-color: rgb(90, 163, 7);
-    color: rgba(247, 199, 86, 0.986);
+    background-color: rgb(0,25,1);
+    color: rgba(240, 196, 50);
 
 }
 
@@ -59,19 +59,21 @@ nav
 
 }
 
-h1
+h2
 {
     font-size: 3em;
+    color: rgb(179, 237, 255);
 }
 
 h3
 {
     font-size: 2em;
+    color: rgb(179, 237, 255);
 }
 #presentation
 {
     position: relative;
-    color: rgba(247, 199, 86, 0.986);
+    color: rgba(240, 196, 50);
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
@@ -91,9 +93,9 @@ h3
     position: relative;
     float:left;
     left: 175px;
-    border: 1.5px groove red;
     padding: 25px;
     width: 32%;
+    background-color: rgb(0,80,1);
 }
 
 h2
@@ -106,7 +108,7 @@ h2
 #logos1:hover , #logos2:hover
 {
     position: relative;
-    background-color: red!important;    
+    background-color: palevioletred!important;
 }
 
 #logos2
@@ -116,9 +118,9 @@ h2
     display: block;
     float:right;
     right: 175px;
-    border: 1.5px groove red;
     padding: 25px;
     width: 32%;
+    background-color: rgb(0,80,1);
 }
 
 #ligne2
