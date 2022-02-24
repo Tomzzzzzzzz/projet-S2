@@ -10,6 +10,12 @@ html
 
 }
 
+#gumber
+{
+    position: absolute;
+    bottom: 380px;
+}
+
 body
 {
     z-index: 2;
@@ -63,6 +69,9 @@ h2
 {
     font-size: 3em;
     color: rgb(179, 237, 255);
+    text-align: center;
+    font-size: 2.7em;
+    margin-bottom:70px;
 }
 
 h3
@@ -77,8 +86,8 @@ h3
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
-    font-size: 1.3em;
-    height: 770px;
+    font-size: 1.7em;
+    height: 500px;
 }
 
 #ressources
@@ -98,12 +107,7 @@ h3
     background-color: rgb(0,80,1);
 }
 
-h2
-{
-    text-align: center;
-    font-size: 2.7em;
-    margin-bottom:70px;
-}
+
 
 #logos1:hover , #logos2:hover
 {
