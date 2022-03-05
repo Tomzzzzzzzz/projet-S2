@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -23,18 +23,28 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-    void Resume()
+    public void Resume()
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
-
     }
 
     void Pause()
     {
         pauseMenuUI.SetActive(true);
-        Time.timeScale = 0f; //stop le temps - freeze the game
+        Time.timeScale = 0f;
         GameIsPaused = true;
+    }
+
+    public void OptionsMenu()
+    {
+        Time.timeScale = 1f;  //on veut que le temps passe sur le menu principal
+        SceneManager.LoadScene("MainMenuScene");
+    }
+
+    public void MainMenu()
+    {
+        Application.Quit();
     }
 }
