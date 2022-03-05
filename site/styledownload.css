@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Beaufort for LOL';
+    src: url('Beaufort for LOL Bold.ttf') format('truetype');
+}
+
+
 html
 {
     background-color: orange;
@@ -40,4 +46,9 @@ nav
     position: fixed;
     left: 10px;
 
+}
+
+body
+{
+    font-family: "Beaufort for Lol";
 }

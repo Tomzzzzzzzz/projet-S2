@@ -39,15 +39,15 @@ a:hover
 
 header
 {
+    z-index: 1;
     position: fixed;
     color: aliceblue;
     background-color: rgb(50,50,50);
-    height: 45px;
+    height: 55px;
     width: 100%;
     top:0;
     left: 0;
-    font-size: 1.3em;
-    z-index: 1;
+    font-size: 26px;
 
 }
 nav
@@ -62,6 +62,8 @@ nav
 {
     position: fixed;
     left: 10px;
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -86,7 +88,7 @@ h3
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
-    font-size: 1.7em;
+    font-size: 1.5em;
     height: 500px;
 }
 
