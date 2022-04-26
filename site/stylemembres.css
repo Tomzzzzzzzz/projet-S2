@@ -32,7 +32,7 @@ header
     width: 100%;
     top:0;
     left: 0;
-    font-size: 1.3em;
+    font-size: 30px;
 
 }
 nav
@@ -40,7 +40,6 @@ nav
     color: aliceblue;
     position: fixed;
     right: 10px;
-    font-size: 1.3em;
 }
 
 #menu
